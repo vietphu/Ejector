@@ -9,9 +9,7 @@
 		<key>Optional</key>
 		<true/>
 		<key>Types</key>
-		<array>
-			<string>com.apple.cocoa.string</string>
-		</array>
+		<array/>
 	</dict>
 	<key>AMApplication</key>
 	<string>-</string>
@@ -28,21 +26,21 @@
 		<key>AMDAlert</key>
 		<string>-</string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string>-</string>
 		<key>AMDNote</key>
 		<string>-</string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string>-</string>
 		<key>AMDRelatedActions</key>
 		<string>-</string>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string>-</string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string>-</string>
 		<key>AMDSummary</key>
 		<string>Ejects all ejectable disks as reported by diskutil info</string>
 		<key>AMDWebsite</key>
-		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+		<string>-</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>-</string>
@@ -55,24 +53,22 @@
 		<key>Container</key>
 		<string>List</string>
 		<key>Types</key>
-		<array>
-			<string>com.apple.cocoa.string</string>
-		</array>
+		<array/>
 	</dict>
 	<key>AMRequiredResources</key>
 	<array/>
 	<key>AMWarning</key>
 	<dict>
 		<key>Action</key>
-		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<string>-</string>
 		<key>ApplyButton</key>
-		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<string>-</string>
 		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<string>-</string>
 		<key>Level</key>
 		<integer>0</integer>
 		<key>Message</key>
-		<string>(* Warning message presented to user goes here. *)</string>
+		<string>-</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
@@ -87,11 +83,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011 -. All rights reserved.</string>
 	<key>NSPrincipalClass</key>

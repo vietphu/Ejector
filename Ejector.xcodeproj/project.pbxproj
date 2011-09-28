@@ -12,6 +12,7 @@
 		E17C05861432CB5C000A9928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E17C05841432CB5C000A9928 /* InfoPlist.strings */; };
 		E17C05881432CB5C000A9928 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = E17C05871432CB5C000A9928 /* main.command */; };
 		E17C058B1432CB5C000A9928 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17C05891432CB5C000A9928 /* main.xib */; };
+		E17C05921432CED8000A9928 /* README in Resources */ = {isa = PBXBuildFile; fileRef = E17C05911432CED8000A9928 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		E17C05851432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E17C05871432CB5C000A9928 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
 		E17C058A1432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		E17C05911432CED8000A9928 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E17C059A1432D218000A9928 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 		E17C056A1432CB5C000A9928 = {
 			isa = PBXGroup;
 			children = (
+				E17C05911432CED8000A9928 /* README */,
 				E17C05811432CB5C000A9928 /* Ejector */,
 				E17C05781432CB5C000A9928 /* Frameworks */,
 				E17C05771432CB5C000A9928 /* Products */,
@@ -62,6 +66,7 @@
 			children = (
 				E17C05791432CB5C000A9928 /* Automator.framework */,
 				E17C057B1432CB5C000A9928 /* Cocoa.framework */,
+				E17C059A1432D218000A9928 /* AppleScriptObjC.framework */,
 				E17C057D1432CB5C000A9928 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -150,6 +155,7 @@
 				E17C05861432CB5C000A9928 /* InfoPlist.strings in Resources */,
 				E17C05881432CB5C000A9928 /* main.command in Resources */,
 				E17C058B1432CB5C000A9928 /* main.xib in Resources */,
+				E17C05921432CED8000A9928 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +228,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -242,6 +248,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -291,6 +298,7 @@
 				E17C05901432CB5C000A9928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
