@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E17C057A1432CB5C000A9928 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C05791432CB5C000A9928 /* Automator.framework */; };
+		E17C057C1432CB5C000A9928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C057B1432CB5C000A9928 /* Cocoa.framework */; };
+		E17C05861432CB5C000A9928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E17C05841432CB5C000A9928 /* InfoPlist.strings */; };
+		E17C05881432CB5C000A9928 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = E17C05871432CB5C000A9928 /* main.command */; };
+		E17C058B1432CB5C000A9928 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17C05891432CB5C000A9928 /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E17C05761432CB5C000A9928 /* Ejector.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejector.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17C05791432CB5C000A9928 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		E17C057B1432CB5C000A9928 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E17C057E1432CB5C000A9928 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E17C057F1432CB5C000A9928 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E17C05801432CB5C000A9928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E17C05831432CB5C000A9928 /* Ejector-Info.plist */ = {isa = PBXFileReference; path = "Ejector-Info.plist"; sourceTree = "<group>"; };
+		E17C05851432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E17C05871432CB5C000A9928 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
+		E17C058A1432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17C05721432CB5C000A9928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C057A1432CB5C000A9928 /* Automator.framework in Frameworks */,
+				E17C057C1432CB5C000A9928 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17C056A1432CB5C000A9928 = {
+			isa = PBXGroup;
+			children = (
+				E17C05811432CB5C000A9928 /* Ejector */,
+				E17C05781432CB5C000A9928 /* Frameworks */,
+				E17C05771432CB5C000A9928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E17C05771432CB5C000A9928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17C05761432CB5C000A9928 /* Ejector.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17C05781432CB5C000A9928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17C05791432CB5C000A9928 /* Automator.framework */,
+				E17C057B1432CB5C000A9928 /* Cocoa.framework */,
+				E17C057D1432CB5C000A9928 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17C057D1432CB5C000A9928 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E17C057E1432CB5C000A9928 /* AppKit.framework */,
+				E17C057F1432CB5C000A9928 /* CoreData.framework */,
+				E17C05801432CB5C000A9928 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E17C05811432CB5C000A9928 /* Ejector */ = {
+			isa = PBXGroup;
+			children = (
+				E17C05871432CB5C000A9928 /* main.command */,
+				E17C05891432CB5C000A9928 /* main.xib */,
+				E17C05821432CB5C000A9928 /* Supporting Files */,
+			);
+			path = Ejector;
+			sourceTree = "<group>";
+		};
+		E17C05821432CB5C000A9928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17C05831432CB5C000A9928 /* Ejector-Info.plist */,
+				E17C05841432CB5C000A9928 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17C05751432CB5C000A9928 /* Ejector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17C058E1432CB5C000A9928 /* Build configuration list for PBXNativeTarget "Ejector" */;
+			buildPhases = (
+				E17C05711432CB5C000A9928 /* Sources */,
+				E17C05721432CB5C000A9928 /* Frameworks */,
+				E17C05731432CB5C000A9928 /* Resources */,
+				E17C05741432CB5C000A9928 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ejector;
+			productName = Ejector;
+			productReference = E17C05761432CB5C000A9928 /* Ejector.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17C056C1432CB5C000A9928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = E17C056F1432CB5C000A9928 /* Build configuration list for PBXProject "Ejector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E17C056A1432CB5C000A9928;
+			productRefGroup = E17C05771432CB5C000A9928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17C05751432CB5C000A9928 /* Ejector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17C05731432CB5C000A9928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C05861432CB5C000A9928 /* InfoPlist.strings in Resources */,
+				E17C05881432CB5C000A9928 /* main.command in Resources */,
+				E17C058B1432CB5C000A9928 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E17C05741432CB5C000A9928 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17C05711432CB5C000A9928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17C05841432CB5C000A9928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17C05851432CB5C000A9928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E17C05891432CB5C000A9928 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17C058A1432CB5C000A9928 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17C058C1432CB5C000A9928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E17C058D1432CB5C000A9928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E17C058F1432CB5C000A9928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejector/Ejector-Prefix.pch";
+				INFOPLIST_FILE = "Ejector/Ejector-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		E17C05901432CB5C000A9928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejector/Ejector-Prefix.pch";
+				INFOPLIST_FILE = "Ejector/Ejector-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17C056F1432CB5C000A9928 /* Build configuration list for PBXProject "Ejector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17C058C1432CB5C000A9928 /* Debug */,
+				E17C058D1432CB5C000A9928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17C058E1432CB5C000A9928 /* Build configuration list for PBXNativeTarget "Ejector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17C058F1432CB5C000A9928 /* Debug */,
+				E17C05901432CB5C000A9928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17C056C1432CB5C000A9928 /* Project object */;
+}
