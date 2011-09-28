@@ -1,0 +1,1 @@
+Simple Max OS X Automator Action to eject all disks that are reported as ejectable by diskutil info.

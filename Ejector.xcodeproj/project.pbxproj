@@ -21,7 +21,7 @@
 		E17C057E1432CB5C000A9928 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E17C057F1432CB5C000A9928 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E17C05801432CB5C000A9928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E17C05831432CB5C000A9928 /* Ejector-Info.plist */ = {isa = PBXFileReference; path = "Ejector-Info.plist"; sourceTree = "<group>"; };
+		E17C05831432CB5C000A9928 /* Ejector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejector-Info.plist"; sourceTree = "<group>"; };
 		E17C05851432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E17C05871432CB5C000A9928 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
 		E17C058A1432CB5C000A9928 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
